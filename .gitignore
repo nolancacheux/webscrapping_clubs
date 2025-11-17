@@ -1,0 +1,139 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.cpython-*.pyc
+*.pyc
+*.pyo
+*.pyd
+
+# Environnements virtuels
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# Build et distribution
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Playwright
+.playwright/
+playwright-report/
+test-results/
+
+# IDE et éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Fichiers de données générés
+*.csv
+*.json
+!districts_urls.json.example
+!requirements.txt
+!package.json
+!package-lock.json
+!data/districts_urls.json.example
+
+# Fichiers de test et résultats
+test_*.json
+*_results.json
+test_*.csv
+*_test.csv
+*.log
+
+# Fichiers temporaires et de debug
+*.tmp
+*.bak
+*.old
+*.orig
+*.save
+debug_*.html
+debug_*.py
+*_debug.py
+*.debug
+
+# Fichiers de configuration sensibles
+credentials.json
+*.key
+*.pem
+*.env
+.env.local
+.env.*.local
+
+# Fichiers de sauvegarde
+*.backup
+*.swp
+*~
+
+# Fichiers de documentation générés
+docs/_build/
+docs/.doctrees/
+
+# Fichiers de cache
+.cache/
+*.cache
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Fichiers spécifiques au projet
+clubs_*.csv
+all_clubs_*.csv
+clubs_*.json
+all_clubs_*.json
+
+# Fichiers de logs
+logs/
+*.log
+*.log.*
+
+# Fichiers de données temporaires
+data/*.json
+!data/districts_urls.json.example
+
+# Fichiers de test temporaires
+tests/*.json
+tests/*.csv
+
+# Résultats de test organisés
+data/test_results/
